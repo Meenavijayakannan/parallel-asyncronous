@@ -1,6 +1,6 @@
 package com.learnjava;
 
-import lombok.val;
+//import lombok.val;
 
 import java.util.*;
 import java.util.concurrent.CompletableFuture;
@@ -15,6 +15,7 @@ public class ArrayListTest {
 System.out.println(Math.abs(-1));
 
         List<Integer> list = List.of(1,2,3,5);
+
 
 
         list.stream().map(num->CompletableFuture.supplyAsync(()-> {

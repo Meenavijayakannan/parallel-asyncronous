@@ -30,9 +30,9 @@ public class NewThread {
            }
        }).join();
 
-        CompletableFuture.runAsync(() ->{
-            for(int i=1;i<10;i++){
-                if(i%2 == 0){
+        CompletableFuture.runAsync(() -> {
+            for (int i = 1; i < 10; i++) {
+                if (i % 2 == 0) {
 
                     try {
                         System.out.println(i);

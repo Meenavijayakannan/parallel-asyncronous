@@ -1,5 +1,7 @@
 package com.learnjava;
 
+import java.util.Collections;
+
 public class rotateArray {
 
     public static void main (String[] args) {
@@ -10,6 +12,7 @@ public class rotateArray {
                 {1, 2, 3, 4, 5} ,
                 {10, 3},
                 {2, 4, 6, 8, 10, 12, 14, 16, 18, 20}};
+
         for(int k=0;k< loop.length; k++){
             if((k%2)==0 && k!=0){
                 int arr[] = new int[loop[k].length];
